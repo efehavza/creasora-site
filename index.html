@@ -8,7 +8,7 @@
   <meta name="color-scheme" content="light dark">
   <meta property="og:title" content="Creasora">
   <meta property="og:description" content="Fold the city. Roll the stones. A puzzle game made for the hinge of iPhone Duo.">
-  <meta property="og:image" content="img/shot-2.jpg">
+  <meta property="og:image" content="https://efehavza.github.io/creasora-site/img/shot-2-1200.jpg">
   <link rel="icon" href="img/icon.png">
   <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,67 +17,113 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="wrap top">
-    <a class="brand" href="./"><img src="img/icon.png" alt=""><span>CREASORA</span></a>
-    <nav>
-      <a href="support.html">Support</a>
-      <a href="privacy.html">Privacy</a>
-    </nav>
-  </header>
+  <div class="top-bar">
+    <header class="wrap top">
+      <a class="brand" href="./"><img src="img/icon.png" alt=""><span>CREASORA</span></a>
+      <nav>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </header>
+  </div>
 
-  <main class="wrap">
+  <main>
     <section class="hero">
-      <img class="icon" src="img/icon.png" alt="Creasora app icon">
-      <h1>CREASORA</h1>
-      <p class="tagline">Fold the city. Roll the stones.</p>
-      <span class="badge">
-        <svg viewBox="0 0 18 12" aria-hidden="true"><path d="M1 2 L9 9 L17 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        Made for iPhone Duo
-      </span>
-      <p class="store-note">Coming soon to the App Store.</p>
-    </section>
-
-    <figure class="shot hero-shot">
-      <img src="img/shot-2.jpg" width="1400" height="985" alt="Level 38, Pump House: a snowy town across two pages, its right page crowded with stones, cups and gates.">
-    </figure>
-
-    <p class="lede">A small snowy city is printed across the two halves of your iPhone Duo. Fold the phone and the right-hand page tips: every stone on it rolls downhill. Fill the cups, light the lantern, and do it in as few folds as you can.</p>
-
-    <section class="features">
-      <div class="feature">
-        <div class="mark"></div>
-        <h3>You fold the phone</h3>
-        <p>The hinge is the controller. Open flat to walk, fold part-way for a gentle tip, further for a steep one.</p>
-      </div>
-      <div class="feature">
-        <div class="mark"></div>
-        <h3>50 hand-made levels</h3>
-        <p>From a first gentle roll to The Last Lantern, with drawbridges, level crossings, snowdrifts and pressure plates along the way.</p>
-      </div>
-      <div class="feature">
-        <div class="mark"></div>
-        <h3>Quiet and private</h3>
-        <p>No ads, no accounts, no tracking. Your progress syncs through your own iCloud, and nothing else leaves your phone.</p>
+      <div class="wrap">
+        <p class="eyebrow">
+          <svg viewBox="0 0 18 11" aria-hidden="true"><path d="M1 1.5 L9 9 L17 1.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Made for iPhone Duo
+        </p>
+        <h1>CREASORA</h1>
+        <p class="tagline">Fold the city. Roll the stones.</p>
+        <div class="cta-row">
+          <span class="pill solid">Coming soon to the App Store</span>
+          <a class="pill ghost" href="#how">How it plays</a>
+        </div>
+        <div class="duo" role="img" aria-label="Creasora on an open iPhone Duo: a snowy town printed across its two halves, with stones, cups and gates on the right.">
+          <div class="duo-body">
+            <div class="duo-half left" style="background-image: url(img/shot-2-2400.jpg)"></div>
+            <div class="duo-half right" style="background-image: url(img/shot-2-2400.jpg)"></div>
+          </div>
+        </div>
+        <p class="duo-caption">Level 38, Pump House</p>
       </div>
     </section>
 
-    <section class="gallery" aria-label="Screenshots">
-      <figure>
-        <div class="shot"><img src="img/shot-1.jpg" width="1400" height="985" loading="lazy" alt="The title screen over the snowy town."></div>
-        <figcaption>The city opens with your phone.</figcaption>
-      </figure>
-      <figure>
-        <div class="shot"><img src="img/shot-3.jpg" width="1400" height="985" loading="lazy" alt="Level 3, Far Cup First: three cups and three stones on the right-hand page."></div>
-        <figcaption>Fill the far cup first.</figcaption>
-      </figure>
-      <figure>
-        <div class="shot"><img src="img/shot-4.jpg" width="1400" height="985" loading="lazy" alt="The walker crossing onto the right-hand page between folds."></div>
-        <figcaption>Walk the streets between folds.</figcaption>
-      </figure>
-      <figure>
-        <div class="shot"><img src="img/shot-5.jpg" width="1400" height="985" loading="lazy" alt="Level 14 at night, lit windows and snow over drawbridges and a barrier."></div>
-        <figcaption>Snow, dusk and midnight streets.</figcaption>
-      </figure>
+    <section class="band" id="how">
+      <div class="wrap">
+        <p class="lede">A small snowy city is printed across the two halves of your iPhone Duo. Fold the phone and the right-hand page tips, so every stone on it <em>rolls downhill</em>. Fill the cups, light the lantern, and do it in as few folds as you can.</p>
+      </div>
+    </section>
+
+    <section class="band" style="padding-top: 0">
+      <div class="wrap">
+        <div class="feature">
+          <figure class="shot">
+            <img src="img/shot-3-1200.jpg" srcset="img/shot-3-1200.jpg 1200w, img/shot-3-2400.jpg 2400w" sizes="(max-width: 860px) 100vw, 680px" width="2400" height="1688" alt="Level 3, Far Cup First: three empty cups and three stones on the right-hand page.">
+          </figure>
+          <div>
+            <span class="kicker">The hinge is the controller</span>
+            <h2>Tip the page. Roll the stones.</h2>
+            <p>Open flat to walk the streets. Fold part-way for a gentle tip, further for a steep one. Every stone rolls until it drops into a cup, a gap or a wall, so the order you fold in is the puzzle.</p>
+          </div>
+        </div>
+
+        <div class="feature flip">
+          <figure class="shot">
+            <img src="img/shot-4-1200.jpg" srcset="img/shot-4-1200.jpg 1200w, img/shot-4-2400.jpg 2400w" sizes="(max-width: 860px) 100vw, 680px" width="2400" height="1688" loading="lazy" alt="The walker crossing onto the right-hand page between folds.">
+          </figure>
+          <div>
+            <span class="kicker">50 hand-made levels</span>
+            <h2>Fill every cup. Light the lantern.</h2>
+            <p>From a first gentle roll to The Last Lantern, with drawbridges, level crossings, bollards, snowdrifts and pressure plates, each introduced on its own level. Every level is checked by a solver, so there is always a way through.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band night">
+      <div class="wrap">
+        <div class="feature">
+          <figure class="shot">
+            <img src="img/shot-5-1200.jpg" srcset="img/shot-5-1200.jpg 1200w, img/shot-5-2400.jpg 2400w" sizes="(max-width: 860px) 100vw, 680px" width="2400" height="1688" loading="lazy" alt="Level 14 at night: lit windows and falling snow over drawbridges and a barrier.">
+          </figure>
+          <div>
+            <span class="kicker">Snow, dusk and midnight</span>
+            <h2>A quiet city to get lost in.</h2>
+            <p>Each street has its own hour, from bright midday after snowfall to blue hour and lamplit midnight, with a gentle soundtrack. Three stars wait for anyone who finds the fewest folds.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="wrap points">
+        <div>
+          <div class="mark"></div>
+          <h3>Play your way</h3>
+          <p>Hinge Assist puts an on-screen dial in place of folding, for anyone who would rather not fold.</p>
+        </div>
+        <div>
+          <div class="mark"></div>
+          <h3>Progress in your iCloud</h3>
+          <p>Your stars follow you through your own iCloud. Only your Apple Account can read them.</p>
+        </div>
+        <div>
+          <div class="mark"></div>
+          <h3>Nothing else</h3>
+          <p>No ads, no accounts, no tracking. Creasora collects no data at all.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band closing" style="padding-top: 0">
+      <div class="wrap">
+        <img class="icon" src="img/icon.png" width="112" height="112" alt="Creasora app icon">
+        <h2>Coming soon to the App Store</h2>
+        <p>For iPhone Duo with iOS 27.1 or later.</p>
+        <a class="pill ghost" href="support.html">Questions? Visit Support</a>
+      </div>
     </section>
   </main>
 
